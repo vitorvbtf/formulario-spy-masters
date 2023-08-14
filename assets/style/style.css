@@ -18,6 +18,7 @@ body{
     
     background-color: white;
     border-radius: 20px;
+    display: flex;
 }
 
 header{
@@ -80,13 +81,6 @@ header{
     border-radius: 15px;
 }
 
-
-.principal{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .lado_esquerdo{
     margin: 10px;
     width: 50%;
@@ -103,6 +97,7 @@ header{
 h1{
     font-size: 3.3rem;
     text-align: center;
+
 }
 
 .slogan{
@@ -202,7 +197,7 @@ img{
       display: none;
     }
     .lado_esquerdo{
-        width: 100%;
+        width: 96%;
     }
     .lado_direito{
         width: 100%;
@@ -219,7 +214,20 @@ img{
 
   @media(max-width:530px){
     
-    
+    h1{
+        font-size: 38px;
+    }
+
+    .google{
+        width: 80%;
+        padding: 5px;
+        
+    }
+
+    .google p{
+        font-size: 14px;
+    }
+
     .links-acesso{
         display: none;
     }
